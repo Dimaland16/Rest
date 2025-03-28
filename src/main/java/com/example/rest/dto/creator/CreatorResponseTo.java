@@ -1,4 +1,4 @@
-package com.example.rest.dto;
+package com.example.rest.dto.creator;
 
 public class CreatorResponseTo {
 

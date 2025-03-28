@@ -1,7 +1,7 @@
 package com.example.rest.mapper;
 
-import com.example.rest.dto.CreatorRequestTo;
-import com.example.rest.dto.CreatorResponseTo;
+import com.example.rest.dto.creator.CreatorRequestTo;
+import com.example.rest.dto.creator.CreatorResponseTo;
 import com.example.rest.entity.Creator;
 import org.mapstruct.Mapper;
 

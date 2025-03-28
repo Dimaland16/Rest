@@ -1,13 +1,13 @@
-package com.example.rest.repository;
+package com.example.rest.repository.Impl;
 
-import com.example.rest.entity.Creator;
 import com.example.rest.entity.Tag;
+import com.example.rest.repository.TagRepository;
 import org.springframework.stereotype.Repository;
 
 import java.util.*;
 
 @Repository
-public class TagRepositoryIml implements TagRepository {
+public class TagRepositoryImpl implements TagRepository {
 
     private final Map<Long, Tag> tags = new HashMap<>();
     private Long nextId = 1L;

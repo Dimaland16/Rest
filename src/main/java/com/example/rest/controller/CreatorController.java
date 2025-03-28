@@ -1,13 +1,12 @@
 package com.example.rest.controller;
 
-import com.example.rest.dto.CreatorRequestTo;
-import com.example.rest.dto.CreatorResponseTo;
-import com.example.rest.dto.CreatorUpdate;
-import com.example.rest.service.CreatorNotFoundException;
+import com.example.rest.dto.creator.CreatorRequestTo;
+import com.example.rest.dto.creator.CreatorResponseTo;
+import com.example.rest.dto.creator.CreatorUpdate;
+import com.example.rest.exceptionHandler.CreatorNotFoundException;
 import com.example.rest.service.CreatorService;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

@@ -1,6 +1,4 @@
-package com.example.rest.dto;
-
-import lombok.Data;
+package com.example.rest.dto.tag;
 
 public class TagRequestTo {
     private String name;

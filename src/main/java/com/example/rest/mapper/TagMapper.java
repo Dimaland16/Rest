@@ -1,7 +1,7 @@
 package com.example.rest.mapper;
 
-import com.example.rest.dto.TagRequestTo;
-import com.example.rest.dto.TagResponseTo;
+import com.example.rest.dto.tag.TagRequestTo;
+import com.example.rest.dto.tag.TagResponseTo;
 import com.example.rest.entity.Tag;
 import org.mapstruct.Mapper;
 

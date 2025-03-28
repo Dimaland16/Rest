@@ -1,6 +1,7 @@
-package com.example.rest.repository;
+package com.example.rest.repository.Impl;
 
 import com.example.rest.entity.Topic;
+import com.example.rest.repository.TopicRepository;
 import org.springframework.stereotype.Repository;
 
 import java.util.HashMap;
@@ -9,7 +10,7 @@ import java.util.Map;
 import java.util.Optional;
 
 @Repository
-public class TopicRepositoryIml implements TopicRepository{
+public class TopicRepositoryImpl implements TopicRepository {
     
     private final Map<Long, Topic> topics = new HashMap<>();
     private Long nextId = 1L;

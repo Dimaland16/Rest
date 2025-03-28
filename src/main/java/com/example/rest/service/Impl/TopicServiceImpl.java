@@ -1,11 +1,12 @@
-package com.example.rest.service;
+package com.example.rest.service.Impl;
 
-import com.example.rest.dto.TopicRequestTo;
-import com.example.rest.dto.TopicResponseTo;
-import com.example.rest.dto.TopicUpdate;
+import com.example.rest.dto.topic.TopicRequestTo;
+import com.example.rest.dto.topic.TopicResponseTo;
+import com.example.rest.dto.topic.TopicUpdate;
 import com.example.rest.entity.Topic;
 import com.example.rest.mapper.TopicMapper;
 import com.example.rest.repository.TopicRepository;
+import com.example.rest.service.TopicService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

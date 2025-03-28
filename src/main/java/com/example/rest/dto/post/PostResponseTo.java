@@ -1,6 +1,9 @@
-package com.example.rest.dto;
+package com.example.rest.dto.post;
 
-public class PostUpdate {
+import lombok.Data;
+
+
+public class PostResponseTo {
     private Long id;
     private Long topicId;
     private String content;

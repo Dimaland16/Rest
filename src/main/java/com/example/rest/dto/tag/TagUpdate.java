@@ -1,8 +1,6 @@
-package com.example.rest.dto;
+package com.example.rest.dto.tag;
 
-import lombok.Data;
-
-public class TagResponseTo {
+public class TagUpdate {
     private Long id;
     private String name;
 

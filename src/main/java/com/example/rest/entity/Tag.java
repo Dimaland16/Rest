@@ -5,7 +5,7 @@ import java.util.List;
 public class Tag {
     private Long id;
     private String name;
-    //private List<Topic> topics;
+    private List<Topic> topics;
 
     public Long getId() {
         return id;
@@ -23,11 +23,11 @@ public class Tag {
         this.name = name;
     }
 
-/*    public List<Topic> getTopics() {
+    public List<Topic> getTopics() {
         return topics;
     }
 
     public void setTopics(List<Topic> topics) {
         this.topics = topics;
-    }*/
+    }
 }

@@ -1,11 +1,11 @@
 package com.example.rest.controller;
 
 
-import com.example.rest.dto.TagRequestTo;
-import com.example.rest.dto.TagResponseTo;
+import com.example.rest.dto.tag.TagRequestTo;
+import com.example.rest.dto.tag.TagResponseTo;
 
-import com.example.rest.dto.TagUpdate;
-import com.example.rest.service.CreatorNotFoundException;
+import com.example.rest.dto.tag.TagUpdate;
+import com.example.rest.exceptionHandler.CreatorNotFoundException;
 import com.example.rest.service.TagService;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;

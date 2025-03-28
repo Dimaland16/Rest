@@ -1,11 +1,12 @@
-package com.example.rest.service;
+package com.example.rest.service.Impl;
 
-import com.example.rest.dto.PostRequestTo;
-import com.example.rest.dto.PostResponseTo;
-import com.example.rest.dto.PostUpdate;
+import com.example.rest.dto.post.PostRequestTo;
+import com.example.rest.dto.post.PostResponseTo;
+import com.example.rest.dto.post.PostUpdate;
 import com.example.rest.entity.Post;
 import com.example.rest.mapper.PostMapper;
 import com.example.rest.repository.PostRepository;
+import com.example.rest.service.PostService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

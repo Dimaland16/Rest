@@ -1,4 +1,4 @@
-package com.example.rest.service;
+package com.example.rest.exceptionHandler;
 
 public class CreatorNotFoundException extends RuntimeException {
     public CreatorNotFoundException(Long id) {

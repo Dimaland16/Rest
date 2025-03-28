@@ -1,6 +1,8 @@
 package com.example.rest.service;
 
-import com.example.rest.dto.*;
+import com.example.rest.dto.tag.TagRequestTo;
+import com.example.rest.dto.tag.TagResponseTo;
+import com.example.rest.dto.tag.TagUpdate;
 
 import java.util.List;
 import java.util.Optional;

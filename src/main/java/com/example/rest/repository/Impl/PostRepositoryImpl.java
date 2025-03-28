@@ -1,6 +1,7 @@
-package com.example.rest.repository;
+package com.example.rest.repository.Impl;
 
 import com.example.rest.entity.Post;
+import com.example.rest.repository.PostRepository;
 import org.springframework.stereotype.Repository;
 
 import java.util.HashMap;
@@ -9,7 +10,7 @@ import java.util.Map;
 import java.util.Optional;
 
 @Repository
-public class PostRepositoryIml implements PostRepository {
+public class PostRepositoryImpl implements PostRepository {
 
     private final Map<Long, Post> posts = new HashMap<>();
     private Long nextId = 1L;

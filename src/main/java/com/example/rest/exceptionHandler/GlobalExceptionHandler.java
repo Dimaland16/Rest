@@ -1,6 +1,5 @@
-package com.example.rest.controller;
+package com.example.rest.exceptionHandler;
 
-import com.example.rest.service.CreatorNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.MethodArgumentNotValidException;

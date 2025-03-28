@@ -1,8 +1,7 @@
-package com.example.rest.dto;
+package com.example.rest.dto.post;
 
 import lombok.Data;
 
-@Data
 public class PostRequestTo {
     private String content;
     private Long topicId;

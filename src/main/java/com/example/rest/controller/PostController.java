@@ -1,9 +1,9 @@
 package com.example.rest.controller;
 
-import com.example.rest.dto.PostRequestTo;
-import com.example.rest.dto.PostResponseTo;
-import com.example.rest.dto.PostUpdate;
-import com.example.rest.service.CreatorNotFoundException;
+import com.example.rest.dto.post.PostRequestTo;
+import com.example.rest.dto.post.PostResponseTo;
+import com.example.rest.dto.post.PostUpdate;
+import com.example.rest.exceptionHandler.CreatorNotFoundException;
 import com.example.rest.service.PostService;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;

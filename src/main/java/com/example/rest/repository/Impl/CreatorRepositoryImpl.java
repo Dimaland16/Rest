@@ -1,12 +1,13 @@
-package com.example.rest.repository;
+package com.example.rest.repository.Impl;
 
 import com.example.rest.entity.Creator;
+import com.example.rest.repository.CreatorRepository;
 import org.springframework.stereotype.Repository;
 
 import java.util.*;
 
 @Repository
-public class CreatorRepositoryIml implements CreatorRepository {
+public class CreatorRepositoryImpl implements CreatorRepository {
 
     private final Map<Long, Creator> creators = new HashMap<>();
     private Long nextId = 1L;

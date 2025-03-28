@@ -1,8 +1,4 @@
-package com.example.rest.dto;
-
-import lombok.Data;
-
-import java.util.List;
+package com.example.rest.dto.topic;
 
 public class TopicRequestTo {
     private String title;

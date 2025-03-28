@@ -1,6 +1,5 @@
-package com.example.rest.dto;
+package com.example.rest.dto.topic;
 
-import com.example.rest.entity.Creator;
 import com.example.rest.entity.Tag;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;

@@ -2,9 +2,9 @@ package com.example.rest.service;
 
 
 
-import com.example.rest.dto.TopicRequestTo;
-import com.example.rest.dto.TopicResponseTo;
-import com.example.rest.dto.TopicUpdate;
+import com.example.rest.dto.topic.TopicRequestTo;
+import com.example.rest.dto.topic.TopicResponseTo;
+import com.example.rest.dto.topic.TopicUpdate;
 
 import java.util.List;
 import java.util.Optional;

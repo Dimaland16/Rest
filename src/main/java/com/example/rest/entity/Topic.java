@@ -16,7 +16,7 @@ public class Topic {
     private String content;
     private LocalDateTime created;
     private LocalDateTime modified;
-    //private List<Post> posts;
+    private List<Post> posts;
     private List<Tag> tags;
 
     public Long getId() {
@@ -67,13 +67,13 @@ public class Topic {
         this.modified = modified;
     }
 
-/*    public List<Post> getPosts() {
+    public List<Post> getPosts() {
         return posts;
     }
 
     public void setPosts(List<Post> posts) {
         this.posts = posts;
-    }*/
+    }
 
     public List<Tag> getTags() {
         return tags;

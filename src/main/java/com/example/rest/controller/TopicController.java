@@ -1,9 +1,9 @@
 package com.example.rest.controller;
 
-import com.example.rest.dto.TopicRequestTo;
-import com.example.rest.dto.TopicResponseTo;
-import com.example.rest.dto.TopicUpdate;
-import com.example.rest.service.CreatorNotFoundException;
+import com.example.rest.dto.topic.TopicRequestTo;
+import com.example.rest.dto.topic.TopicResponseTo;
+import com.example.rest.dto.topic.TopicUpdate;
+import com.example.rest.exceptionHandler.CreatorNotFoundException;
 import com.example.rest.service.TopicService;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;

@@ -1,6 +1,6 @@
-package com.example.rest.dto;
+package com.example.rest.dto.tag;
 
-public class TagUpdate {
+public class TagResponseTo {
     private Long id;
     private String name;
 

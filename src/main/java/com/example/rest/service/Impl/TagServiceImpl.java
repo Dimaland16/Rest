@@ -1,11 +1,12 @@
-package com.example.rest.service;
+package com.example.rest.service.Impl;
 
-import com.example.rest.dto.TagRequestTo;
-import com.example.rest.dto.TagResponseTo;
-import com.example.rest.dto.TagUpdate;
+import com.example.rest.dto.tag.TagRequestTo;
+import com.example.rest.dto.tag.TagResponseTo;
+import com.example.rest.dto.tag.TagUpdate;
 import com.example.rest.entity.Tag;
 import com.example.rest.mapper.TagMapper;
 import com.example.rest.repository.TagRepository;
+import com.example.rest.service.TagService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
