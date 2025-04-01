@@ -2,6 +2,9 @@ package com.example.rest.entity;
 
 import lombok.*;
 
+import java.util.ArrayList;
+import java.util.List;
+
 
 public class Creator {
 
@@ -10,6 +13,8 @@ public class Creator {
     private String password;
     private String firstname;
     private String lastname;
+    private List<Topic> topics = new ArrayList<>();
+
 
     public Long getId() {
         return id;
@@ -49,5 +54,13 @@ public class Creator {
 
     public void setLastname(String lastname) {
         this.lastname = lastname;
+    }
+
+    public List<Topic> getTopics() {
+        return topics;
+    }
+
+    public void setTopics(List<Topic> topics) {
+        this.topics = topics;
     }
 }

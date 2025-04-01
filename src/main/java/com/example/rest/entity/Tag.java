@@ -1,11 +1,12 @@
 package com.example.rest.entity;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Tag {
     private Long id;
     private String name;
-    private List<Topic> topics;
+    private List<Topic> topics = new ArrayList<>();
 
     public Long getId() {
         return id;

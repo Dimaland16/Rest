@@ -5,6 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.List;
 
 
@@ -16,8 +17,8 @@ public class Topic {
     private String content;
     private LocalDateTime created;
     private LocalDateTime modified;
-    private List<Post> posts;
-    private List<Tag> tags;
+    private List<Post> posts = new ArrayList<>();
+    private List<Tag> tags = new ArrayList<>();
 
     public Long getId() {
         return id;
